@@ -1,5 +1,8 @@
 # Conception et implémentation d’une infrastructure de déploiement continu
 
+<div align="center">
+    <img src="images/architecture.png" alt="infra" width="80%" height="80%">
+</div>
 •	Installation et déployement de Gitlab en interne comme étant un SCM pour l’équipe de dev.
 
 •	Configuration d’un pipeline automatique à travers Jenkins tel que à chaque évènement de Push de coté dev le projet sera construit et déployé dans un serveur pre-prod pour test et validation.
